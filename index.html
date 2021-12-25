@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body class="">
+    <div class="main">
+   <h1 id="title">freeCodeCamp Survey Form</h1> 
+   <p>Thank you for taking the time to help us improve the platform</p>
+   <div class="main-content">
+
+<form id="Survey-form">
+<label for="name">enter your name</label>
+<input id="name" type="text"required placeholder="name">
+<label for="email">enter your email</label>
+<input id="name" type="text" required placeholder="email">
+<label for="age">enter your age<span>(optional)</span></label>
+<input type="number" name="age" id="name" min="10" max="99" required placeholder="Age">
+
+<label for="dropdown">which option best describes your current role</label>
+<select  id="dropdown">
+  <option value="student">student</option>
+  <option value="full-time-learner">full time learner</option> 
+  <option value="full-time-job">full time job</option>
+  <option value="prefer-not-say">prefer not say</option>
+  </select>
+  
+<p>Would you recommend freeCodeCamp to a friend?<p>
+  <div id="gap">
+    <label > 
+        <input type="radio" name="action" id="definately" value="definately">definately 
+      </label>
+      </div>
+      <div id="gap">
+      <label> 
+        <input type="radio" name="action" id="maybe" value="maybe">maybe
+      </label>
+      </div>
+      <div id="gap">
+      <label> 
+        <input type="radio" name="action" id="not-sure"value="not-sure">not sure
+      </label>
+</div>
+
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <label for="front-end-projects"><input id="wiki" type="checkbox" name="front-end-projects">front end projects</label><br>
+      <label for="front-end-projects"><input id="wiki" type="checkbox" 
+        name="front-end-projects">videos length</label><br>
+      <label for="front-end-projects"><input id="wiki" type="checkbox" name="front-end-projects">video</label><br>
+      <label for="front-end-projects"><input id="wiki" type="checkbox" name="front-end-projects">city meetups</label><br>
+      <label for="front-end-projects"><input id="wiki" type="checkbox" name="front-end-projects">wiki</label><br>
+
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comment"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."></textarea>
+      <button type="submit" id="submit-button" class="submit-button">Submit </button>
+  </form>
+
+    </div>
+       </div>
+</body>
