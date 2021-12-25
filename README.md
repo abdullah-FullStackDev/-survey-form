@@ -2,7 +2,7 @@
 
 > This project consists of building a Survey form  to understand the use of css frameworks, in this project i used HTML5/CSS3 for making the front-end of this web-site and i wanted to know how HTML5/CSS3 works.
 
-![Alt text](https://github.com/abdullah-FullStackDev/tribute-page/blob/main/assets/ss.png)
+![Alt text](https://github.com/abdullah-FullStackDev/-survey-form/blob/main/assets/ss.png)
 
 ## Built With
 
@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://abdullah-fullstackdev.github.io/tribute-page/)
+[Live Demo Link](https://abdullah-fullstackdev.github.io/-survey-form/)
 
 ## Getting Started
 
